@@ -1,0 +1,18 @@
+train.sh: line 5: export: `5e-9': not a valid identifier
+run task: Train model!!
+wandb: Appending key for api.wandb.ai to your netrc file: /home/dl/.netrc
+usage: train_model.py [-h] [--train_data TRAIN_DATA] [--test_data TEST_DATA]
+                      [--load_pretrain] [--load_model_path LOAD_MODEL_PATH]
+                      [--dev_data DEV_DATA] [--batch_size BATCH_SIZE]
+                      [--learning_rate LEARNING_RATE] [--eps EPS] [--do_train]
+                      [--do_eval] [--do_test]
+                      [--num_train_epochs NUM_TRAIN_EPOCHS]
+                      [--base_model BASE_MODEL]
+                      [--entity_property_model_path ENTITY_PROPERTY_MODEL_PATH]
+                      [--polarity_model_path POLARITY_MODEL_PATH]
+                      [--output_dir OUTPUT_DIR] [--do_demo]
+                      [--max_len MAX_LEN]
+                      [--classifier_hidden_size CLASSIFIER_HIDDEN_SIZE]
+                      [--classifier_dropout_prob CLASSIFIER_DROPOUT_PROB]
+                      [--run_name RUN_NAME]
+train_model.py: error: argument --learning_rate: expected one argument

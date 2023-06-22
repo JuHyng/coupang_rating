@@ -1,0 +1,21 @@
+program: train_model.py
+method: bayes
+name: dl_sweep
+description: hyperparameter tuning
+project: DL_gradientAscent
+entity: kimy
+metric:
+  name: Polarity_accuracy
+  goal: maximize
+parameters:
+  learning_rate:
+    distribution: uniform
+    min: 9e-9
+    max: 5e-7
+  eps:
+    distribution: uniform
+    min: 1e-8
+    max: 9e-8
+  num_train_epochs:
+    value: 30
+  
